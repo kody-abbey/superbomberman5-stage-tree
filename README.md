@@ -5,3 +5,5 @@ A map of SuperBomberman 5 in Normal Mode.
 
 **Game assets belong to their respective owners.**
 **This repository contains only original guide information.**
+
+![Map](map.svg)
