@@ -150,15 +150,15 @@ boss_4_bundori [label="Boss 4_Plunder"]
 "4-14" -> {"4-13", boss_4_bundori}
 "4-15" -> boss_4_bundori
 boss_4_mask -> {"5-1", "5-2", "5-3"}
-boss_4_hige -> {"5-4", "5-5", "5-5"}
+boss_4_hige -> {"5-4", "5-5", "5-6"}
 boss_4_bundori -> {"5-7", "5-8"}
 
 // 5th stage
 Boss_GoodEnd [label="Boss (Good Ending)"]
 Boss_5_BadEnd [label="Boss (Bad Ending)"]
 
-{rank=same; "5-1"; "5-2"; "5-3"; "5-4"; "5-5"; "5-7"; "5-8";}
-{rank=same; "5-6"; "5-9"; "5-11";}
+{rank=same; "5-1"; "5-2"; "5-3"; "5-4"; "5-5"; "5-6"; "5-7"; "5-8";}
+{rank=same; "5-9"; "5-11";}
 {rank=same;  "5-10";  "5-12"; "5-13"; "5-14"; "5-15";}
 {rank=same;  "5-17"; "5-18";  "5-20"; "5-21"; "5-22"; "5-23";}
 {rank=same; "5-16"; "5-19";}
