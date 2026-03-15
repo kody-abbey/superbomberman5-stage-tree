@@ -61,7 +61,7 @@ boss_1_Honey -> "2-2"
 // 2nd stage
 boss_2_A [label="Boss 2_Dave (A)"]
 boss_2_B [label="Boss 2_Dave (B)"]
-boss_2_Gari [label="Boss 2_Gary"]
+boss_2_Gary [label="Boss 2_Gary"]
 boss_2_Honey [label="Boss 2_Honey"]
 
 {rank=same; "2-1"; "2-2"; "2-5"; "2-9";  "2-12";}
@@ -69,7 +69,7 @@ boss_2_Honey [label="Boss 2_Honey"]
 {rank=same; "2-3"; "2-7";   "2-14";}
 {rank=same;   "2-6"; "2-13"; "2-10";}
 {rank=same;  "2-8";"2-4"; "2-11";"2-15";}
-{rank=same;  boss_2_A; boss_2_B; boss_2_Gari; boss_2_Honey;}
+{rank=same;  boss_2_A; boss_2_B; boss_2_Gary; boss_2_Honey;}
 
 "2-1" -> {"2-2", "2-3"}
 "2-2" -> {"2-4", "2-7"}
@@ -85,10 +85,10 @@ boss_2_Honey [label="Boss 2_Honey"]
 "2-12" -> {"2-10", "2-13", "2-14"}
 "2-13" -> {"2-11", "2-14"}
 "2-14" -> {"2-13", "2-11", "2-15"}
-"2-15" -> {boss_2_Gari, "2-11"}
+"2-15" -> {boss_2_Gary, "2-11"}
 boss_2_A -> {  "3-2", "3-3", "3-4"}
 boss_2_B -> {  "3-4", "3-5"}
-boss_2_Gari -> "3-1"
+boss_2_Gary -> "3-1"
 boss_2_Honey ->   "3-13"
 
 // 3rd stage
@@ -125,14 +125,14 @@ boss_3_Honey -> "4-2"
 
 // 4th stage
 boss_4_mask [label="Boss 4_Mask"]
-boss_4_hige [label="Boss 4_Baron"]
-boss_4_bundori [label="Boss 4_Plunder"]
+boss_4_baron [label="Boss 4_Baron"]
+boss_4_plunder [label="Boss 4_Plunder"]
 
 {rank=same; "4-2"; "4-3"; "4-4"; "4-5";  "4-6";}
 {rank=same; "4-1"; "4-9"; "4-12";  "4-13";  "4-14";}
 {rank=same;   "4-11"; "4-7"; }
 {rank=same; "4-8"; "4-7"; "4-10"; "4-15";} 
-{rank=same; boss_4_mask, boss_4_hige, boss_4_bundori}
+{rank=same; boss_4_mask, boss_4_baron, boss_4_plunder}
 
 "4-1" -> {"4-2", "4-8"}
 "4-2" -> {"4-1", "4-9"}
@@ -144,14 +144,14 @@ boss_4_bundori [label="Boss 4_Plunder"]
 "4-8" -> boss_4_mask
 "4-9" -> boss_4_mask
 "4-10" -> {"4-11", boss_4_mask}
-"4-11" -> {"4-10", boss_4_hige}
-"4-12" -> boss_4_hige
-"4-13" -> {boss_4_hige, "4-14"}
-"4-14" -> {"4-13", boss_4_bundori}
-"4-15" -> boss_4_bundori
+"4-11" -> {"4-10", boss_4_baron}
+"4-12" -> boss_4_baron
+"4-13" -> {boss_4_baron, "4-14"}
+"4-14" -> {"4-13", boss_4_plunder}
+"4-15" -> boss_4_plunder
 boss_4_mask -> {"5-1", "5-2", "5-3"}
-boss_4_hige -> {"5-4", "5-5", "5-6"}
-boss_4_bundori -> {"5-7", "5-8"}
+boss_4_baron -> {"5-4", "5-5", "5-6"}
+boss_4_plunder -> {"5-7", "5-8"}
 
 // 5th stage
 Boss_GoodEnd [label="Boss (Good Ending)"]
