@@ -24,7 +24,9 @@ color="#aaaaaa"
 
 ]
 
-// 1st stage
+// =====================
+// Stage 1
+// =====================
 boss_1_A [label="Boss 1_Woof (A)"]
 boss_1_B [label="Boss 1_Woof (B)"]
 boss_1_C [label="Boss 1_Woof (C)"]
@@ -58,7 +60,9 @@ boss_1_B -> {  "2-9", "2-12"}
 boss_1_C -> "2-12"
 boss_1_Honey -> "2-2"
 
-// 2nd stage
+// =====================
+// Stage 2
+// =====================
 boss_2_A [label="Boss 2_Dave (A)"]
 boss_2_B [label="Boss 2_Dave (B)"]
 boss_2_Gary [label="Boss 2_Gary"]
@@ -91,7 +95,9 @@ boss_2_B -> {  "3-4", "3-5"}
 boss_2_Gary -> "3-1"
 boss_2_Honey ->   "3-13"
 
-// 3rd stage
+// =====================
+// Stage 3
+// =====================
 boss_3_A [label="Boss 3_A"]
 boss_3_B [label="Boss 3_B"]
 boss_3_C [label="Boss 3_C"]
@@ -123,7 +129,9 @@ boss_3_B -> {"4-4", "4-5"}
 boss_3_C -> {"4-5", "4-6"}
 boss_3_Honey -> "4-2"
 
-// 4th stage
+// =====================
+// Stage 4
+// =====================
 boss_4_mask [label="Boss 4_Mask"]
 boss_4_baron [label="Boss 4_Baron"]
 boss_4_plunder [label="Boss 4_Plunder"]
@@ -153,7 +161,9 @@ boss_4_mask -> {"5-1", "5-2", "5-3"}
 boss_4_baron -> {"5-4", "5-5", "5-6"}
 boss_4_plunder -> {"5-7", "5-8"}
 
-// 5th stage
+// =====================
+// Stage 5
+// =====================
 Boss_GoodEnd [label="Boss (Good Ending)"]
 Boss_5_BadEnd [label="Boss (Bad Ending)"]
 
