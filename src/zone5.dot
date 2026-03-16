@@ -1,4 +1,4 @@
-subgraph cluster_zone5 {
+digraph cluster_zone5 {
 graph [
 bgcolor="#1e1e1e"
 rankdir=TB
@@ -352,7 +352,7 @@ color="#aaaaaa"
 
 "boss_normal_ending" [label=<
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
-<TR><TD COLSPAN="1">Boss Good End</TD></TR>
+<TR><TD COLSPAN="1">Boss Normal End</TD></TR>
 </TABLE>
 >]
 
