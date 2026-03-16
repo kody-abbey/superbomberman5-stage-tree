@@ -6,6 +6,11 @@
 <!-- Title: cluster_zone5 Pages: 1 -->
 <svg width="965pt" height="671pt"
  viewBox="0.00 0.00 965.00 671.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+Author: Kody
+License: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+</metadata>
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 666.5)">
 <title>cluster_zone5</title>
 <polygon fill="#1e1e1e" stroke="none" points="-4,4 -4,-666.5 961,-666.5 961,4 -4,4"/>
@@ -718,4 +723,10 @@
 <polygon fill="#aaaaaa" stroke="#aaaaaa" points="675.09,-27.85 665.48,-23.4 670.21,-32.88 675.09,-27.85"/>
 </g>
 </g>
+<text x="99%" y="99%" text-anchor="end"
+      font-family="Arial, sans-serif"
+      font-size="9"
+      fill="#777">
+Kody • CC BY-SA 4.0
+</text>
 </svg>
