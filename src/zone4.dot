@@ -1,0 +1,265 @@
+subgraph cluster_zone4 {
+graph [
+bgcolor="#1e1e1e"
+rankdir=TB
+// splines=true
+splines=polyline
+compound=true
+nodesep=0.6
+ranksep=0.9
+overlap=prism
+]
+node [
+shape=plain
+fillcolor="#2d2d2d"
+fontcolor="white"
+color="white"    
+]
+edge [
+color="#aaaaaa"
+]
+
+"4-1" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="2">4-1</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+</TR>
+</TABLE>
+>]
+
+"4-2" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="2">4-2</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+</TR>
+</TABLE>
+>]
+
+"4-3" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="3">4-3</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<td></td>
+<TD PORT="e2">○</TD>
+</TR>
+<TR>
+<td></td>
+<TD PORT="e3">○</TD>
+<td></td>
+</TR>
+</TABLE>
+>]
+
+"4-4" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="1">4-4</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+</TR>
+</TABLE>
+>]
+
+"4-5" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="2">4-5</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+</TR>
+</TABLE>
+>]
+
+"4-6" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="4">4-6</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<td></td> <td></td>
+<TD PORT="e2">○</TD>
+</TR>
+<TR>
+<td></td>
+<TD PORT="e3">○</TD>
+<TD PORT="e4">○</TD>
+<td></td>
+</TR>
+</TABLE>
+>]
+
+"4-7" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="2">4-7</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+</TR>
+</TABLE>
+>]
+
+"4-8" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="1">4-8</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+</TR>
+</TABLE>
+>]
+
+"4-9" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="1">4-9</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+</TR>
+</TABLE>
+>]
+
+"4-10" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="1">4-10</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+</TR>
+<TR>
+<TD PORT="e2">○</TD>
+</TR>
+</TABLE>
+>]
+
+"4-11" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="2">4-11</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<td></td>
+</TR>
+<TR>
+<td></td>
+<TD PORT="e2">○</TD>
+</TR>
+</TABLE>
+>]
+
+"4-12" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="1">4-12</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+</TR>
+</TABLE>
+>]
+
+"4-13" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="2">4-13</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+</TR>
+</TABLE>
+>]
+
+"4-14" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="2">4-14</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<td></td>
+</TR>
+<TR>
+<td></td>
+<TD PORT="e2">○</TD>
+</TR>
+</TABLE>
+>]
+
+"4-15" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="1">4-15</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+</TR>
+</TABLE>
+>]
+
+"boss_4_mask" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="3">Boss Mask</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+<TD PORT="e3">○</TD>
+</TR>
+</TABLE>
+>]
+
+"boss_4_baron" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="3">Boss Baron</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+<TD PORT="e3">○</TD>
+</TR>
+</TABLE>
+>]
+
+"boss_4_plunder" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="2">Boss Plunder</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+</TR>
+</TABLE>
+>]
+
+
+{rank=min; "4-2"; "4-3"; "4-4"; "4-5"; "4-6";}
+"4-2" -> "4-1" [style=invis]
+{rank=same; "4-1"; "4-9"; "4-12";  "4-13";  "4-14"; "4-7";}
+{rank=same; "4-11"; "4-8"; "4-10"; "4-15";} 
+{rank=same; boss_4_mask, boss_4_baron, boss_4_plunder}
+
+"4-1":e1 -> "4-8"
+"4-1":e2 -> "4-2"
+"4-2":e1 -> "4-1"
+"4-2":e2 -> "4-9"
+"4-3":e1 -> "4-9"
+"4-3":e2 -> "4-11"
+"4-3":e3 -> "4-10"
+"4-4":e1 -> "4-11"
+"4-5":e1 -> "4-12"
+"4-5":e2 -> "4-13"
+"4-6":e1 -> "4-13"
+"4-6":e2 -> "4-7"
+"4-6":e3 -> "4-14"
+"4-6":e4 -> "4-15"
+"4-7":e1 -> "4-6"
+"4-7":e2 -> "4-15"
+"4-8":e1 -> boss_4_mask
+"4-9":e1 -> boss_4_mask
+"4-10":e1 -> boss_4_mask
+"4-10":e2 -> "4-11"
+"4-11":e1 -> "4-10"
+"4-11":e2 -> boss_4_baron
+"4-12":e1 -> boss_4_baron
+"4-13":e1 -> boss_4_baron
+"4-13":e2 -> "4-14"
+"4-14":e1 -> "4-13"
+"4-14":e2 -> boss_4_plunder
+"4-15":e1 -> boss_4_plunder
+boss_4_mask:e1 -> "5-1"
+boss_4_mask:e2 -> "5-2"
+boss_4_mask:e3 -> "5-3"
+boss_4_baron:e1 -> "5-4"
+boss_4_baron:e2 -> "5-5"
+boss_4_baron:e3 -> "5-6"
+boss_4_plunder:e1 -> "5-7"
+boss_4_plunder:e2 -> "5-8"
+}

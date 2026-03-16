@@ -1,0 +1,262 @@
+subgraph cluster_zone3  {
+graph [
+bgcolor="#1e1e1e"
+rankdir=TB
+splines=polyline
+compound=true
+nodesep=0.6
+ranksep=0.9
+overlap=prism
+]
+node [
+shape=plain
+fillcolor="#2d2d2d"
+fontcolor="white"
+color="white"    
+]
+edge [
+color="#aaaaaa"
+]
+
+"3-1" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD>3-1</TD></TR>
+<TR><TD PORT="e1">○</TD></TR>
+</TABLE>
+>]
+
+"3-2" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="2">3-2</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+</TR>
+</TABLE>
+>]
+
+"3-3" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD>3-3</TD></TR>
+<TR><TD PORT="e1">○</TD></TR>
+</TABLE>
+>]
+
+"3-4" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="2">3-4</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+</TR>
+</TABLE>
+>]
+
+"3-5" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="1">3-5</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+</TR>
+<tr>
+<TD PORT="e2">○</TD>
+</tr>
+</TABLE>
+>]
+
+
+
+/* ---------- middle ---------- */
+"3-6" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="3">3-6</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+<TD PORT="e3">○</TD>
+</TR>
+</TABLE>
+>]
+
+"3-7" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="3">3-7</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<td></td>
+</TR>
+<tr>
+<td></td>
+<TD PORT="e2">○</TD>
+</tr>
+</TABLE>
+>]
+
+"3-8" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="2">3-8</TD></TR>
+<TR>
+<td></td>
+<TD PORT="e1">○</TD>
+</TR>
+<tr>
+<TD PORT="e2">○</TD>
+<td></td>
+</tr>
+</TABLE>
+>]
+
+"3-9" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="3">3-9</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+<TD PORT="e3">○</TD>
+</TR>
+</TABLE>
+>]
+
+"3-10" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="2">3-10</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+</TR>
+</TABLE>
+>]
+
+
+
+"3-11" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD>3-11</TD></TR>
+<TR><TD PORT="e1">○</TD></TR>
+</TABLE>
+>]
+
+"3-12" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="2">3-12</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+</TR>
+</TABLE>
+>]
+
+"3-13" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="2">3-13</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<td></td>
+</TR>
+<tr>
+<td></td>
+<TD PORT="e2">○</TD>
+</tr>
+</TABLE>
+>]
+
+"3-14" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD>3-14</TD></TR>
+<TR><TD PORT="e1">○</TD></TR>
+</TABLE>
+>]
+
+"3-15" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD>3-15</TD></TR>
+<TR><TD PORT="e1">○</TD></TR>
+</TABLE>
+>]
+
+/* ---------- bottom ---------- */
+
+"boss_3_a" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="3">Boss A</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+<TD PORT="e3">○</TD>
+</TR>
+</TABLE>
+>]
+
+"boss_3_b" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="2">Boss B</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+</TR>
+</TABLE>
+>]
+
+"boss_3_c" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="2">Boss C</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+<TD PORT="e2">○</TD>
+</TR>
+</TABLE>
+>]
+
+"boss_3_honey" [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD COLSPAN="1">Boss Honey</TD></TR>
+<TR>
+<TD PORT="e1">○</TD>
+</TR>
+</TABLE>
+>]
+/* ---------- edges ---------- */
+{rank=same; "3-2"; "3-3"; "3-4"; "3-5";  "3-1"; "3-13";}
+{rank=same; "3-6"; "3-9"; "3-8";  "3-10";}
+{rank=same; "3-7";  "3-12";}
+{rank=same; "3-11"; "3-14"; "3-15";}
+{rank=same; boss_3_a; boss_3_b; boss_3_c; boss_3_honey}
+
+
+"3-1":e1 -> "3-6"
+"3-2":e1 -> "3-7"
+"3-2":e2 -> "3-8"
+"3-3":e1 -> "3-8"
+"3-4":e1 -> "3-8"
+"3-4":e2 -> "3-9"
+"3-5":e1 -> "3-9"
+"3-5":e2 -> "3-10"
+"3-6":e1 -> "3-13"
+"3-6":e2 -> "3-14"
+"3-6":e3 -> "3-15"
+"3-7":e1 -> "boss_3_honey"
+"3-7":e2 -> "3-11"
+"3-8":e1 -> "3-11"
+"3-8":e2 -> "3-9"
+"3-9":e1 -> "3-8"
+"3-9":e2 -> "3-11"
+"3-9":e3 -> "3-12"
+"3-10":e1 -> "3-12"
+"3-10":e2 -> "3-13"
+"3-11":e1 -> "boss_3_a"
+"3-12":e1 -> "boss_3_b"
+"3-12":e2 -> "3-13"
+"3-13":e1 -> "boss_3_c"
+"3-13":e2 -> "3-12"
+"3-14":e1 -> "boss_3_c"
+"3-15":e1 -> "boss_3_c"
+"boss_3_a":e1 -> "4-2"
+"boss_3_a":e2 -> "4-3"
+"boss_3_a":e3 -> "4-4"
+"boss_3_b":e1 -> "4-4"
+"boss_3_b":e2 -> "4-5"
+"boss_3_c":e1 -> "4-5"
+"boss_3_c":e2 -> "4-6"
+"boss_3_honey":e1 -> "4-2"
+
+}
