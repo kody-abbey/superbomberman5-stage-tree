@@ -21,7 +21,7 @@ This map visualizes the branching stage structure of the game.
 <img src="assets/svg/zone2.svg" width="100%">
 <img src="assets/svg/zone3.svg" width="100%">
 <img src="assets/svg/zone4.svg" width="100%">
-<img src="assets/svg/zone5.svg" width="100%">
+<img src="assets/svg/zone5.svg" width="99%">
 
 ## Download
 📥 **Download full image**
