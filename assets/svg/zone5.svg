@@ -6,11 +6,6 @@
 <!-- Title: cluster_zone5 Pages: 1 -->
 <svg width="965pt" height="671pt"
  viewBox="0.00 0.00 965.00 671.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <metadata>
-Author: Kody
-License: CC BY-SA 4.0
-https://creativecommons.org/licenses/by-sa/4.0/
-</metadata>
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 666.5)">
 <title>cluster_zone5</title>
 <polygon fill="#1e1e1e" stroke="none" points="-4,4 -4,-666.5 961,-666.5 961,4 -4,4"/>
@@ -695,8 +690,8 @@ https://creativecommons.org/licenses/by-sa/4.0/
 <!-- boss_normal_ending -->
 <g id="node32" class="node">
 <title>boss_normal_ending</title>
-<polygon fill="none" stroke="white" points="608.25,0 608.25,-22.5 699.75,-22.5 699.75,0 608.25,0"/>
-<text xml:space="preserve" text-anchor="start" x="611.25" y="-6.75" font-family="Times New Roman,serif" font-size="14.00" fill="white">Boss Good End</text>
+<polygon fill="none" stroke="white" points="602.25,0 602.25,-22.5 705.75,-22.5 705.75,0 602.25,0"/>
+<text xml:space="preserve" text-anchor="start" x="605.25" y="-6.75" font-family="Times New Roman,serif" font-size="14.00" fill="white">Boss Normal End</text>
 </g>
 <!-- 5&#45;27&#45;&gt;boss_normal_ending -->
 <g id="edge60" class="edge">
@@ -723,10 +718,4 @@ https://creativecommons.org/licenses/by-sa/4.0/
 <polygon fill="#aaaaaa" stroke="#aaaaaa" points="675.09,-27.85 665.48,-23.4 670.21,-32.88 675.09,-27.85"/>
 </g>
 </g>
-<text x="99%" y="99%" text-anchor="end"
-      font-family="Arial, sans-serif"
-      font-size="9"
-      fill="#777">
-Kody • CC BY-SA 4.0
-</text>
 </svg>

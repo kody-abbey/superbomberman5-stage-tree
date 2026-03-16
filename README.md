@@ -17,11 +17,11 @@ This map visualizes the branching stage structure of the game.
 **This repository contains only original guide information.**
 
 ## Map
-![zone1](assets/svg/zone1.svg)
-![zone2](assets/svg/zone2.svg)
-![zone3](assets/svg/zone3.svg)
-![zone4](assets/svg/zone4.svg)
-![zone5](assets/svg/zone5.svg)
+<img src="assets/svg/zone1.svg" width="100%">
+<img src="assets/svg/zone2.svg" width="100%">
+<img src="assets/svg/zone3.svg" width="100%">
+<img src="assets/svg/zone4.svg" width="100%">
+<img src="assets/svg/zone5.svg" width="100%">
 
 ## Download
 📥 **Download full image**
