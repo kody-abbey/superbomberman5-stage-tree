@@ -6,8 +6,6 @@ Graphviz stage progression graph for Super Bomberman 5 (Normal Mode).
 This map visualizes the branching stage structure of the game.
 
 ## Contents
-- [superbomberman5-stage-tree](#superbomberman5-stage-tree)
-  - [Contents](#contents)
   - [Disclaimer](#disclaimer)
   - [Map](#map)
   - [Download](#download)
